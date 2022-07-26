@@ -126,6 +126,14 @@ public class Vegetal {
         this.ocupationX = ocupationX;
     }
 
+    public void setOcupationY(Number ocupationY) {
+        this.ocupationY = ocupationY;
+    }
+
+    public void setOcupationZ(Number ocupationZ) {
+        this.ocupationZ = ocupationZ;
+    }
+
     public void setSeedsperWeight(Number seedsperWeight) {
         this.seedsperWeight = seedsperWeight;
     }
