@@ -42,8 +42,8 @@ public class HortaController {
                 obj.setMinTemperature(request.getMinTemperature());
                 obj.setMinTemperature(request.getMaxTemperature());
                 obj.setOcupationX(request.getOcupationX());
-                obj.setOcupationX(request.getOcupationY());
-                obj.setOcupationX(request.getOcupationZ());
+                obj.setOcupationY(request.getOcupationY());
+                obj.setOcupationZ(request.getOcupationZ());
                 obj.setSeedsperWeight(request.getSeedsperWeight());
                 obj.setPlantsperHectare(request.getPlantsperHectare());
                 return repositorio.save(obj);
